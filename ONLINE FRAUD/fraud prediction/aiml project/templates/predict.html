@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection Prediction</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <h1>Fraud Detection Prediction</h1>
+    <form action="/submit" method="POST">
+        <label for="step">Step:</label>
+        <input type="text" id="step" name="step"><br><br>
+
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type"><br><br>
+        
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount"><br><br>
+        
+        <label for="oldbalanceOrg">Old Balance Origin:</label>
+        <input type="text" id="oldbalanceOrg" name="oldbalanceOrg"><br><br>
+        
+        <label for="newbalanceOrig">New Balance Origin:</label>
+        <input type="text" id="newbalanceOrig" name="newbalanceOrig"><br><br>
+        
+        <label for="oldbalanceDest">Old Balance Destination:</label>
+        <input type="text" id="oldbalanceDest" name="oldbalanceDest"><br><br>
+        
+        <label for="newbalanceDest">New Balance Destination:</label>
+        <input type="text" id="newbalanceDest" name="newbalanceDest"><br><br>
+
+        <label for="balance_difference">Balance Difference:</label>
+        <input type="text" id="balance_difference" name="balance_difference"><br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* Example styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Vina Sans', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('/static/bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    color: #F24E08;
+    font-size: 35px;
+    font-weight: 1500;
+    margin-top: 15%;
+}
+h3 {
+    color:#DF971B ;
+    font-size: 25px;
+    margin-top: auto;
+}
+p{
+    color: #C4C4D7;
+    font-size: 16px;
+    font-weight: bolder;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 12%;
+    height: 40px;
+    background-color: #ff4141;
+    color: white;
+    display: inline-block;
+    border-radius: 15px;
+}
+input{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 20%;
+    height: 40px;
+    padding: 8px 15px;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+label{
+    font-size: 16px;
+    align-items:flex-start;
+    font-weight: 100;
+    line-height: 1.7em;
+    color:#ff4141;
+}
+bg{
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+background-image{
+
+}
